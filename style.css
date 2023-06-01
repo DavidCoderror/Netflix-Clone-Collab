@@ -18,3 +18,14 @@ svg {
     text-decoration: none;
     vertical-align: middle;
 } 
+
+.bodyText{ color:white;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.title1{
+    font-size: 50px;
+    margin-top: 275px;
+}
+
