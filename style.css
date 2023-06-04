@@ -14,3 +14,11 @@ header {
     margin: 20px;
     filter: brightness(120%);
 }
+
+.svg-nfLogo {
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+} 
