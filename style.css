@@ -10,15 +10,20 @@ header {
 
 .small-vector {
     height: auto;
-    width: 250px;
+    width: 200px;
     margin: 20px;
     filter: brightness(120%);
 }
 
-.svg-nfLogo {
-    fill: #e50914;
-    display: inline-block;
-    line-height: 90px;
-    text-decoration: none;
-    vertical-align: middle;
-} 
+.body-text {
+    text-align: center;
+    color: white;
+}
+
+.email-input {
+    width: 100%;
+    color: transparent;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    max-width: 400px;
+}
