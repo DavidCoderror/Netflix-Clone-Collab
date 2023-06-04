@@ -1,20 +1,16 @@
-body {
-    background-image: url("images/body-background.jpg");
+body { 
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("images/body-background.jpg");   
+    background-blend-mode: darken;
 }
 
 header {
     width: 100%;
 }
 
-svg {
-    margin: 15px;
-    width: 23%;
+.small-vector {
+    height: auto;
+    width: 250px;
+    margin: 20px;
+    filter: brightness(120%);
 }
-
-.svg-nfLogo {
-    fill: #e50914;
-    display: inline-block;
-    line-height: 90px;
-    text-decoration: none;
-    vertical-align: middle;
-} 
