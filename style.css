@@ -20,10 +20,25 @@ header {
     color: white;
 }
 
-.email-input {
+.email-input,.start-button {
     width: 100%;
-    color: transparent;
+    color: white;
     line-height: 1.5rem;
     padding: 1.5rem 1rem 0.5rem;
     max-width: 400px;
+    border-radius: 5px;
+}
+
+.email-input {
+    background-color:black;
+    opacity: 0.5;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.start-button {
+    max-width: 150px;
+    color: rgb(255,255,255);
+    background-color: rgb(229,9,20);
+    text-align: center;
+    border: none;
 }
