@@ -2,10 +2,34 @@ body {
     background-color: rgba(0,0,0,0.5);
     background-image: url("images/body-background.jpg");   
     background-blend-mode: darken;
+    margin: auto 0;
+    padding: auto 0;
 }
 
 header {
     width: 100%;
+}
+
+.head-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.vector-wrapper {
+   /* border: white solid 2px; */
+}
+
+.sign-in-wrapper {
+    text-align: right;
+}
+
+.sign-in {
+    margin: 25px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
 }
 
 .small-vector {
@@ -24,9 +48,10 @@ header {
     width: 100%;
     color: white;
     line-height: 1.5rem;
-    padding: 1.5rem 1rem 0.5rem;
+    padding: 15px;
     max-width: 400px;
     border-radius: 5px;
+    
 }
 
 .email-input {
@@ -43,12 +68,4 @@ header {
     border: none;
 }
 
-.sign-in {
-    width: 5%;
-    color: white;
-    padding: 1.5rem 0.5rem 0.5rem;
-    border-radius: 5px;
-    margin-left: 1500px;
-    background-color: red;
-    border: none;
-}
+
