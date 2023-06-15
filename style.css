@@ -84,6 +84,19 @@ header {
     color:white;
 }
 
+.background-3{
+    background-color: black;
+    padding-bottom: 340px;
+    padding-top: 10px;
+    color:white;
+    text-align: center;
+}
+
+.seperator{
+    background-color: rgb(15, 15, 15);
+    padding: 3px;
+}
+
 .enjoy-Title{
     margin-left: 200px;
     font-size: 50px;
@@ -92,11 +105,6 @@ header {
 .enjoy-Text{
     margin-left: 200px;
     font-size: 25px;
-}
-
-.seperator{
-    background-color: rgb(15, 15, 15);
-    padding: 3px;
 }
 
 .watch-Title{
@@ -114,6 +122,32 @@ header {
     text-align: right;
     margin-right: 720px;
     font-size: 25px;
+}
+
+
+.download-Title-1{
+    text-align: right;
+    margin-right: 400px;
+    font-size: 50px;
+}
+
+.download-Title-2{
+    text-align: right;
+    margin-right: 645px;
+    font-size: 50px;
+}
+
+.download-Text{
+    text-align: right;
+    margin-right: 580px;
+    font-size: 25px;
+
+}
+
+.question-title{
+    text-align: center;
+    font-size: 60px;
+    padding-top: px;
 }
 
 
