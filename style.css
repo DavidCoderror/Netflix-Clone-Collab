@@ -84,13 +84,30 @@ header {
     color:white;
 }
 
-.enjoy-title{
+.enjoy-Title{
     margin-left: 200px;
     font-size: 50px;
 }
 
-.enjoy-text{
+.enjoy-Text{
     margin-left: 200px;
+    font-size: 25px;
+}
+
+.watch-Title{
+    text-align: right;
+    margin-right: 500px;
+    font-size: 50px;
+}
+
+.watch-Text-1{
+    text-align: right;
+    margin-right: 220px;
+    font-size: 25px;
+}
+.watch-Text-2{
+    text-align: right;
+    margin-right: 720px;
     font-size: 25px;
 }
 
