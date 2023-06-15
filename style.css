@@ -77,4 +77,21 @@ header {
     color: white;
 }
 
+.background-2{
+    background-color: black;
+    padding-bottom: 175px;
+    padding-top: 175px;
+    color:white;
+}
+
+.enjoy-title{
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.enjoy-text{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
 
