@@ -94,6 +94,11 @@ header {
     font-size: 25px;
 }
 
+.seperator{
+    background-color: rgb(15, 15, 15);
+    padding: 3px;
+}
+
 .watch-Title{
     text-align: right;
     margin-right: 500px;
