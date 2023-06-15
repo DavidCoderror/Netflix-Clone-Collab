@@ -68,4 +68,13 @@ header {
     border: none;
 }
 
+.background-1{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgb(11, 11, 109),rgb(105, 16, 16));
+    text-align: center;
+    color: white;
+}
+
 
