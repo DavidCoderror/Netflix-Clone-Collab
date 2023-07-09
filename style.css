@@ -22,12 +22,13 @@ header {
 
 .vector-wrapper {
    /* border: white solid 2px; */
+   margin: 20px;
+   width: 200px;
 }
 
 .small-vector {
     height: auto;
-    width: 200px;
-    margin: 20px;
+    width: 100%;
     filter: brightness(120%);
 }
 
@@ -49,6 +50,7 @@ header {
     border-radius: 5px;
     background-color: red;
     border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 #language {
@@ -84,6 +86,7 @@ header {
     max-width: 400px;
     border-radius: 5px;
     font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .email-input {
@@ -292,4 +295,17 @@ header {
 
  .grey-Links {
     color:rgb(161, 161, 161);
+}
+
+
+
+
+
+
+
+/* Responsive Design Section */
+
+@media only screen and (max-width: 320px ) {
+
+
 }
