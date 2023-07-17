@@ -2,5 +2,9 @@
 
 @media only screen and (max-width: 320px ) {
 
+#background{
+padding-left: 250px;
+padding-right: 250px;
+}
 
 }
