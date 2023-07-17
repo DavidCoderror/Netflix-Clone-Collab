@@ -1,10 +1,31 @@
 /* Responsive Design Section */
 
-@media only screen and (max-width: 320px ) {
+@media only screen and (max-width: 599px ) {
 
-#background{
-padding-left: 250px;
-padding-right: 250px;
+    #background {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
 }
 
+@media only screen and (max-width: 600px) {
+
 }
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1800px) {
+
+}
+
