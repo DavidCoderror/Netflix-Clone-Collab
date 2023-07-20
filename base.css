@@ -9,6 +9,7 @@
 /* Iphone XR */
 @media only screen and (max-width: 414px ) {
 
+     /* Background */
     #background-1{
         padding-right: 200px;
     } 
@@ -24,10 +25,16 @@
     #background-4{
         padding-right: 200px;
     } 
+
+    #faq-Background{
+        width :380px;
+    }
+
     #seperator{
         padding-right: 200px;
     }
 
+     /* Images */
     #netflix-Image{
         height: auto;
         width: 35%;
@@ -35,6 +42,34 @@
         margin-top: 5px;
     }
 
+    #img-Popcorn{
+        margin-left: 10px;
+    }
+
+    #img-Enjoy {
+        margin-right: 10px;
+        width:50%;
+        height:50%;
+    }
+
+    .img-Watch {
+        margin-right: 10px;
+        width:50%;
+        height:50%;
+    }
+    
+    .img-Create {
+        margin-right: 10px;
+        width:50%;
+        height:50%;
+    }
+    
+    .img-Download {
+        margin-right: 10px;
+        width:50%;
+        height:50%;
+    }
+    
     #sign-In-Wrapper{
         
     }
@@ -58,6 +93,12 @@
         font-size: 0.75rem;
         padding-right: 500px;
     }
+
+    #faq-Background{
+        width :380px;
+    }
+    
+}
 
 @media only screen and (max-width: 599px ) {
 
