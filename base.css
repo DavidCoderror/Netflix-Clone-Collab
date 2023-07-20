@@ -1,5 +1,11 @@
 /* Responsive Design Section */
 
+/* TO DO:
+    Fix the backgrounds 
+    Fix FAQ list and make the dropdown effect with or without animation effect
+    Make footer responsive in all device resolutions
+ */
+
 @media only screen and (max-width: 599px ) {
 
     #background {
