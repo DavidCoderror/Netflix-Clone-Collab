@@ -6,6 +6,59 @@
     Make footer responsive in all device resolutions
  */
 
+/* Iphone XR */
+@media only screen and (max-width: 414px ) {
+
+    #background-1{
+        padding-right: 200px;
+    } 
+    
+    #background-2{
+        padding-right: 200px;
+    } 
+
+    #background-3{
+        padding-right: 200px;
+    } 
+
+    #background-4{
+        padding-right: 200px;
+    } 
+    #seperator{
+        padding-right: 200px;
+    }
+
+    #netflix-Image{
+        height: auto;
+        width: 35%;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #sign-In-Wrapper{
+        
+    }
+
+    /* Front */
+    #front-Title-1{
+        width :100%;
+        font-size: 1rem;
+        padding-right: 500px;
+        margin-top: 30px;
+    } 
+    
+    #front-Title-2{
+        width :100%;
+        font-size: 0.7rem;
+        padding-right: 500px;
+    }
+
+    #front-Title-3{
+        width :100%;
+        font-size: 0.75rem;
+        padding-right: 500px;
+    }
+
 @media only screen and (max-width: 599px ) {
 
     #background {
