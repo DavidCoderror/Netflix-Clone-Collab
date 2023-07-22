@@ -9,28 +9,33 @@
 /* Iphone XR */
 @media only screen and (max-width: 414px ) {
 
-     /* Background */
-  /* Background */
+        /* Background */
     #background-1{
-        padding-right: 200px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        margin-top: 70px;
     } 
     
     #background-2{
-        padding-right: 200px;
+        padding-right: 0;
+        width: 100%;
     } 
 
     #background-3{
-        padding-right: 200px;
+        padding-right: 0;
+        width: 100%;
     } 
 
     #background-4{
-        padding-right: 200px;
+        padding-right: 0;
+        width: 100%;
     } 
 
     #faq-Background{
-        width :380px;
+        width: 100%;
     }
 
+    /* Seperators */
     #seperator{
         padding-right: 200px;
     }
@@ -38,46 +43,55 @@
      /* Images */
     #netflix-Image{
         height: auto;
-        width: 35%;
+        width: 45%;
         margin-left: 5px;
         margin-top: 5px;
     }
 
     #img-Popcorn{
-        margin-left: 10px;
+    margin-left: 0;
+    margin-top:0;
+    z-index:1000;
+   
     }
 
     #img-Enjoy {
-        margin-right: 10px;
+        margin-right: 0;
         width:50%;
         height:50%;
+        position: bottom;
+        float:none;
     }
 
     .img-Watch {
-        margin-right: 10px;
         width:50%;
         height:50%;
+        margin-right: 0;
     }
     
     .img-Create {
-        margin-right: 10px;
         width:50%;
         height:50%;
     }
     
     .img-Download {
-        margin-right: 10px;
         width:50%;
         height:50%;
     }
 
     #sign-In , #language{
         margin: 5px;
-
     }
 
-    #email-input,#start-button {
+    #email-input{
         width: 75%;
+        padding: 12px;
+    }
+
+    #start-button{
+        width: 75%;
+        padding: 12px;
+        margin-top: 15px;
     }
 
     /* Front */
@@ -97,15 +111,69 @@
         font-size: 1.4rem;
     }
 
-    #learn-More{
+     /* Popcorn Image Section */
+     #middle-Text-1{
+        font-size: 1rem;
+        margin-left: 0;
         margin-right: 0;
-    }
+        z-index:500;
+     }
+
+     #middle-Text-2{
+        font-size: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+        z-index:500;
+     }
+
+     #middle-Text-3{
+        font-size: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+        z-index:500;    
+     }
+
+    /* Enjoy Section*/
+     #enjoy-Title{
+        font-size: 2rem;
+        margin-left: 0;
+     }
+
+     #enjoy-Text-1{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-left: 0;
+     }
+     #enjoy-Text-2{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-left: 0;
+     }
+
+
+    /* Watch Section */
+     #watch-Title{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+     }
+     #watch-Text-1{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-left: 0;
+     }
+     #watch-Text-2{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-left: 0;
+     }
 
     #faq-Background{
         width :380px;
     }
     
 }
+
 
 @media only screen and (max-width: 599px ) {
 
