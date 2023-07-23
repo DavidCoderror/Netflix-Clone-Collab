@@ -9,7 +9,7 @@
 /* Iphone XR */
 @media only screen and (max-width: 414px ) {
 
-        /* Background */
+   /* Background */
     #background-1{
         padding-right: 20px;
         padding-bottom: 50px;
@@ -18,12 +18,15 @@
     
     #background-2{
         padding-right: 0;
+        padding-bottom: 150px;
         width: 100%;
+        text-align: center;
     } 
 
     #background-3{
         padding-right: 0;
         width: 100%;
+        text-align: center;
     } 
 
     #background-4{
@@ -33,6 +36,11 @@
 
     #faq-Background{
         width: 100%;
+    }
+
+    
+    #faq-Background{
+        width :380px;
     }
 
     /* Seperators */
@@ -51,32 +59,39 @@
     #img-Popcorn{
     margin-left: 0;
     margin-top:0;
-    z-index:1000;
-   
     }
 
     #img-Enjoy {
         margin-right: 0;
-        width:50%;
-        height:50%;
-        position: bottom;
-        float:none;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 20%;
+        position:absolute;
     }
 
-    .img-Watch {
-        width:50%;
-        height:50%;
+    #img-Watch {
         margin-right: 0;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 20%;
+        position:absolute;
+
     }
     
-    .img-Create {
-        width:50%;
-        height:50%;
+    #img-Create {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 20%;
+        position:absolute;
     }
     
-    .img-Download {
-        width:50%;
-        height:50%;
+    #img-Download {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 20%;
+        position:absolute;
     }
 
     #sign-In , #language{
@@ -137,40 +152,79 @@
      #enjoy-Title{
         font-size: 2rem;
         margin-left: 0;
+        margin-top:50px;
+        margin-bottom:0;
      }
 
      #enjoy-Text-1{
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-left: 0;
-        margin-left: 0;
+        margin-bottom:0;
+        margin-top:0;
      }
+     
      #enjoy-Text-2{
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-left: 0;
-        margin-left: 0;
+        margin-bottom:0;
+        margin-top:0;
      }
-
 
     /* Watch Section */
-     #watch-Title{
+    #watch-Title{
         font-size: 2rem;
         margin-left: 0;
+        margin-top:50px;
+        margin-bottom:0;
         margin-right: 0;
+        text-align: center;
      }
      #watch-Text-1{
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-left: 0;
-        margin-left: 0;
-     }
-     #watch-Text-2{
-        font-size: 2rem;
-        margin-left: 0;
-        margin-left: 0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:0;
+        text-align: center;
      }
 
-    #faq-Background{
-        width :380px;
-    }
+     #watch-Text-2{
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-bottom:0;
+        margin-right:0;
+        margin-top:0;
+        text-align: center;
+     }
+
+    /* Download Section */
+    #download-Title-1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-top:50px;
+        margin-bottom:0;
+        text-align: center;
+
+        }
+        
+    #download-Title-2 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-top:0;
+        text-align: center;
+
+        }
+        
+        #download-Text {
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:0;
+        text-align: center;
+        }
     
 }
 
