@@ -233,6 +233,10 @@
         #faq-Title{
             margin-top: 2.5%;
         }
+
+       #container{
+            grid-template-columns: repeat(2, 1fr);
+        }
     
 }
 
