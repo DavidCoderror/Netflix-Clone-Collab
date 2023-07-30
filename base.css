@@ -55,10 +55,19 @@
      /* Images */
     #netflix-Image{
         height: auto;
-        width: 45%;
-        margin-left: 5px;
-        margin-top: 5px;
+        width: 65%;
     }
+
+    .sign-in, #language {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .sign-in-wrapper {
+        margin: 15px;
+    }
+
+    
 
     #img-Popcorn{
         margin-left: 0;
