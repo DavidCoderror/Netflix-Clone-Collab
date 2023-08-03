@@ -15,7 +15,7 @@
 
      /* Background */
     #background-1{
-        padding-right: 1em;
+        padding-right: 1rem;
         padding-bottom: 4.5em;
         margin-top: 5em;
     } 
@@ -37,37 +37,23 @@
         padding-right: 0;
         width: 100%;
     } 
-
-    #faq-Background{
-        width: 100%;
-    }
-
     
     #faq-Background{
-        width :15em;
+        width :22.5rem;
     }
 
     /* Seperators */
     #seperator{
-        padding-right: 200px;
+        padding-right: 1rem;
     }
 
      /* Images */
     #netflix-Image{
         height: auto;
-        width: 65%;
+        width: 45%;
+        margin-left: 5px;
+        margin-top: 5px;
     }
-
-    .sign-in, #language {
-        padding: 7px;
-        font-size: 12px;
-    }
-
-    .sign-in-wrapper {
-        margin: 15px;
-    }
-
-    
 
     #img-Popcorn{
         margin-left: 0;
@@ -139,117 +125,98 @@
         font-size: 1.4rem;
     }
 
-     /* Popcorn Image Section */
-     #middle-Text-1{
+    /* Popcorn Image Section */
+    #middle-Text-1{
         font-size: 1rem;
         margin-left: 0;
         margin-right: 0;
-     }
+    }
 
-     #middle-Text-2{
+    #middle-Text-2{
         font-size: 1rem;
         margin-right: 0;
         margin-left: 0;
-     }
+    }
 
-     #middle-Text-3{
+    #middle-Text-3{
         font-size: 1rem;
         margin-right: 0;
         margin-left: 0; 
-     }
+    }
 
     /* Enjoy Section*/
-     #enjoy-Title{
+    #enjoy-Title{
         font-size: 2rem;
         margin-left: 0;
-        margin-top:1em;
+        margin-top:2rem;
         margin-bottom:0;
         text-align: center;
-     }
+    }
 
-     #enjoy-Text-1{
+    #enjoy-Text-1{
         font-size: 1.2rem;
         margin-left: 0;
         margin-bottom:0;
         margin-top:0;
         text-align: center;
-     }
-     
-     #enjoy-Text-2{
-        font-size: 1.2rem;
-        margin-left: 0;
-        margin-bottom:0;
-        margin-top:0;
-        text-align: center;
-     }
+        overflow-wrap: anywhere;
+    }
 
     /* Watch Section */
     #watch-Title{
         font-size: 2rem;
         margin-left: 0;
-        margin-top:1em;
+        margin-top:2rem;        
         margin-bottom:0;
         margin-right: 0;
         text-align: center;
-     }
-     #watch-Text-1{
+    }
+
+    #watch-Text-1{
         font-size: 1.2rem;
         margin-left: 0;
         margin-right:0;
         margin-bottom:0;
         margin-top:0;
         text-align: center;
-     }
+    }
 
-     #watch-Text-2{
+    /* Download Section */
+    #download-Title-1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-top:2rem;
+        margin-bottom:0;
+        text-align: center;
+    }
+        
+    #download-Text {
         font-size: 1.2rem;
         margin-left: 0;
-        margin-bottom:0;
         margin-right:0;
+        margin-bottom:0;
         margin-top:0;
         text-align: center;
-     }
-
-        /* Download Section */
-        .download-Title-1 {
-            font-size: 2rem;
-            margin-left: 0;
-            margin-right:0;
-            margin-top:1em;
-            margin-bottom:0;
-            text-align: center;
-        }
-        
-        .download-Title-2 {
-            font-size: 2rem;
-            margin-left: 0;
-            margin-right:0;
-            margin-top:0;
-            text-align: center;
-        }
-        
-        .download-Text {
-            font-size: 1.2rem;
-            margin-left: 0;
-            margin-right:0;
-            margin-bottom:0;
-            margin-top:0;
-            text-align: center;
-        }
+    }
     
-         /* FAQ Section */
-        #faq-Question-Title {
-            font-size: 2.2rem;
-        }
+    /* FAQ Section */
+    #faq-Question-Title {
+        font-size: 2.2rem;
+    }
 
-        #faq-Title{
-            margin-top: 2.5%;
-        }
+    #faq-Title{
+        margin-top: 2.5%;
+    }
 
-        /* Footer */
-        #container{
-            grid-template-columns: repeat(2, 1fr);
-        }
+    /* Footer */
+    #container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #break-Point{
+        display:inline;
+    }
 }
 
 
