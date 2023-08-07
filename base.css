@@ -445,6 +445,223 @@
 
 }
 
+/* Ipad Air */
+@media only screen and (max-width: 820px ) {
+
+
+    #vector-wrapper{
+        margin-right: 0;
+    }
+
+     /* Background */
+    #background-1{
+        padding-right: 1rem;
+        padding-bottom: 4.5em;
+        margin-top: 8em;
+        text-align: left;
+    } 
+    
+    #background-2{
+        padding-right: 0;
+        padding-bottom:625px;
+        width: 100%;
+        place-items: center;
+    } 
+
+    #background-3{
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    } 
+
+    #background-4{
+        padding-right: 0;
+        width: 100%;
+    } 
+    
+    #faq-Background{
+        width :47rem;
+    }
+
+    /* Seperators */
+    #seperator{
+        padding-right: 1rem;
+    }
+
+     /* Images */
+    #netflix-Image{
+        width: 45%;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #img-Popcorn{
+        margin-left: 10rem;
+        margin-top: 1.5rem;   
+        position:center;
+        width: 20%;
+        height:30%
+    }
+
+    #img-Enjoy {
+        margin-left: 5rem;
+        margin-right: 0;
+        margin-top: 12em;
+        width: 80%;
+        position:absolute;
+    }
+
+    #img-Watch {
+        margin-left: 5rem;
+        margin-right: 0;
+        margin-top: 12em;
+        width: 80%;
+        position:absolute;
+    }
+    
+    #img-Create {
+        margin-left: 5rem;
+        margin-right: 0;
+        margin-top: 12em;
+        width: 80%;
+        position:absolute;
+    }
+    
+    #img-Download {
+        margin-left: 5rem;
+        margin-right: 0;
+        margin-top: 9em;
+        width: 80%;
+        position:absolute;
+    }
+
+    #sign-In , #language{
+        margin: 5px;
+    }
+
+    #email-input{
+        width: 75%;
+        padding: 12px;
+    }
+
+    #start-button{
+        width: 75%;
+        padding: 12px;
+        margin-top: 15px;
+    }
+
+    /* Front */
+    #front-Title-1{
+        width :100%;
+        font-size: 2.1rem;
+        margin-top: 7.5rem;
+    } 
+    
+    #front-Title-2{
+        width :100%;
+        font-size: 1.3rem;
+    }
+
+    #front-Title-3{
+        width :100%;
+        font-size: 1.4rem;
+    }
+
+    /* Popcorn Image Section */
+    #middle-Text-1{
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #middle-Text-2{
+        font-size: 1.3rem;
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+
+    #middle-Text-3{
+        font-size: 1.4rem;
+        margin-right: 0;
+        margin-left: 2.5rem; 
+        text-align:left;
+    }
+
+    /* Enjoy Section*/
+    #enjoy-Title{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top:4rem;
+        margin-bottom:0;
+        text-align: center;
+    }
+
+    #enjoy-Text-1{
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-bottom:0;
+        margin-top:0;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    /* Watch Section */
+    #watch-Title{
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top:4rem;        
+        margin-bottom:0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #watch-Text-1{
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:0;
+        text-align: center;
+    }
+
+    /* Download Section */
+    #download-Title-1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-top:4rem;
+        margin-bottom:0;
+        text-align: center;
+    }
+        
+    #download-Text {
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:0;
+        text-align: center;
+    }
+    
+    /* FAQ Section */
+    #faq-Question-Title {
+        font-size: 2.2rem;
+    }
+
+    #faq-Title{
+        margin-top: 2.5%;
+    }
+
+    /* Footer */
+    #container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #break-Point{
+        display:inline;
+    }
+}
+
 @media only screen and (max-width: 900px) {
 
 }
